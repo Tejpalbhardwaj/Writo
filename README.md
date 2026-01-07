@@ -59,14 +59,13 @@ com.example.writo
 ****
 
 ---
-
+```
 ## 🚀 Getting Started
 
 ### Clone the repository
-```bash
-git clone https://github.com/Tejpalbhardwaj/Writo.git
-Open in Android Studio
-Open the project in Android Studio
+-git clone https://github.com/Tejpalbhardwaj/Writo.git
+-Open in Android Studio
+-Open the project in Android Studio
 
 Sync Gradle
 
