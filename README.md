@@ -1,46 +1,46 @@
-📝 Writo
+# 📝 Writo
 
-Writo is a clean and minimal Android note-taking application designed to help users quickly capture, edit, and manage their thoughts. Built with modern Android tools, the app focuses on simplicity, offline reliability, and smooth performance for everyday use.
+Writo is a clean and minimal Android note-taking application designed to help users create, edit, and manage notes efficiently.  
+It focuses on offline reliability, simplicity, and smooth performance using modern Android tools.
 
-📱 Features
+---
 
-✍️ Create, edit, and delete notes
+## 📱 Features
 
-💾 Offline data storage using Room Database
+- ✍️ Create, edit, and delete notes  
+- 💾 Offline storage using Room Database  
+- ⚡ Smooth UI with Jetpack Compose  
+- 🔄 Automatic UI updates with state management  
+- 🎯 Simple and distraction-free design  
 
-⚡ Smooth and responsive UI with Jetpack Compose
+---
 
-🔄 Automatic UI updates using state management
+## 🛠 Tech Stack
 
-🎯 Simple and distraction-free experience
+- **Language:** Kotlin  
+- **UI:** Jetpack Compose  
+- **Architecture:** MVVM (Model-View-ViewModel)  
+- **Database:** Room Database  
+- **State Management:** ViewModel + State  
+- **Build System:** Gradle  
 
-🛠 Tech Stack
+---
 
-Language: Kotlin
+## 🧱 Architecture
 
-UI: Jetpack Compose
+Writo follows the **MVVM architecture pattern**:
 
-Architecture: MVVM (Model-View-ViewModel)
-
-Database: Room Database
-
-State Management: ViewModel + State
-
-Build System: Gradle
-
-🧱 Architecture
-
-Writo follows the MVVM architecture pattern to ensure a clean separation of concerns:
-
-Model: Room (Entity, DAO, Database)
-
-View: Jetpack Compose UI components
-
-ViewModel: Handles business logic and UI state
+- **Model:** Room (Entity, DAO, Database)  
+- **View:** Jetpack Compose UI components  
+- **ViewModel:** Manages business logic and UI state  
 
 This structure makes the codebase scalable, maintainable, and easy to test.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```text
 com.example.writo
 │
 ├── data
@@ -56,38 +56,4 @@ com.example.writo
 │   └── NoteViewModel.kt
 │
 └── MainActivity.kt
-
-🚀 Getting Started
-
-Clone the repository
-
-git clone https://github.com/your-username/Writo.git
-
-
-Open the project in Android Studio
-
-Sync Gradle and run on an emulator or physical device
-
-📸 Screenshots
-
-Add screenshots of the app UI here
-
-/screenshots/home.png
-/screenshots/editor.png
-
-🔮 Future Enhancements
-
-🔍 Search notes
-
-🏷 Tags and categories
-
-🌙 Dark mode support
-
-☁️ Cloud backup & sync
-
-👨‍💻 Developer
-
-Tejpal Bhardwaj
-Android Developer | Kotlin | Jetpack Compose
-
-GitHub: https://github.com/Tejpalbhardwaj
+****
