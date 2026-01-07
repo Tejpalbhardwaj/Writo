@@ -1,27 +1,26 @@
 📝 Writo
 
-Writo is a lightweight and efficient note-taking Android application built using Kotlin and Jetpack Compose.
-It follows MVVM architecture and uses Room Database for reliable offline data storage.
+Writo is a clean and minimal Android note-taking application designed to help users quickly capture, edit, and manage their thoughts. Built with modern Android tools, the app focuses on simplicity, offline reliability, and smooth performance for everyday use.
 
-✨ Features
+📱 Features
 
-✍️ Create, update, and delete notes
+✍️ Create, edit, and delete notes
 
-💾 Offline-first storage using Room DB
+💾 Offline data storage using Room Database
 
 ⚡ Smooth and responsive UI with Jetpack Compose
 
-🧠 Clean architecture using MVVM
+🔄 Automatic UI updates using state management
 
-🔄 Real-time UI updates via state management
+🎯 Simple and distraction-free experience
 
 🛠 Tech Stack
 
 Language: Kotlin
 
-UI Toolkit: Jetpack Compose
+UI: Jetpack Compose
 
-Architecture: MVVM
+Architecture: MVVM (Model-View-ViewModel)
 
 Database: Room Database
 
@@ -31,15 +30,15 @@ Build System: Gradle
 
 🧱 Architecture
 
-The project is structured using MVVM (Model–View–ViewModel):
+Writo follows the MVVM architecture pattern to ensure a clean separation of concerns:
 
 Model: Room (Entity, DAO, Database)
 
-View: Jetpack Compose UI
+View: Jetpack Compose UI components
 
-ViewModel: Handles business logic and app state
+ViewModel: Handles business logic and UI state
 
-This approach ensures scalability, testability, and maintainable code.
+This structure makes the codebase scalable, maintainable, and easy to test.
 
 📂 Project Structure
 com.example.writo
@@ -58,35 +57,37 @@ com.example.writo
 │
 └── MainActivity.kt
 
-🚀 Setup & Run
+🚀 Getting Started
 
 Clone the repository
 
-git clone https://github.com/your-username/writo.git
+git clone https://github.com/your-username/Writo.git
 
 
-Open in Android Studio
+Open the project in Android Studio
 
-Sync Gradle and run on a device or emulator
+Sync Gradle and run on an emulator or physical device
 
 📸 Screenshots
 
-Add app screenshots here
+Add screenshots of the app UI here
 
 /screenshots/home.png
 /screenshots/editor.png
 
-🔮 Planned Enhancements
+🔮 Future Enhancements
 
-🔍 Note search functionality
+🔍 Search notes
 
 🏷 Tags and categories
 
 🌙 Dark mode support
 
-☁️ Cloud backup
+☁️ Cloud backup & sync
 
-👨‍💻 Author
+👨‍💻 Developer
 
 Tejpal Bhardwaj
 Android Developer | Kotlin | Jetpack Compose
+
+GitHub: https://github.com/Tejpalbhardwaj
