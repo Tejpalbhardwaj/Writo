@@ -7,7 +7,7 @@ It focuses on offline reliability, simplicity, and smooth performance using mode
 
 ## 📱 Features
 
-- ✍️ Create, edit, and delete notes  
+- ✍️ Create and delete notes  
 - 💾 Offline storage using Room Database  
 - ⚡ Smooth UI with Jetpack Compose  
 - 🔄 Automatic UI updates with state management  
@@ -57,3 +57,23 @@ com.example.writo
 │
 └── MainActivity.kt
 ****
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/Tejpalbhardwaj/Writo.git
+Open in Android Studio
+Open the project in Android Studio
+
+Sync Gradle
+
+Run the app on an emulator or physical device
+
+## 👨‍💻 Developer
+- Tejpal Bhardwaj
+- Android Developer | Kotlin | Jetpack Compose
+
+GitHub: https://github.com/Tejpalbhardwaj
