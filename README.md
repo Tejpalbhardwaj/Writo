@@ -41,8 +41,8 @@ This structure makes the codebase scalable, maintainable, and easy to test.
 ## 📸 Screenshots
 <p align="center">
   <img src="screenshots/writo_splash.png" width="230" />
-  <img src="screenshots/blank_page_note.png" width="230" />
-  <img src="screenshots/note_page_note.png" width="230" />
+  <img src="screenshots/blank_page.png" width="230" />
+  <img src="screenshots/note_page.png" width="230" />
 </p>
 ---
 
