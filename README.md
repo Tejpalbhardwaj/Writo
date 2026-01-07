@@ -44,6 +44,7 @@ This structure makes the codebase scalable, maintainable, and easy to test.
   <img src="screenshots/blank_page_note.png" width="230" />
   <img src="screenshots/note_page_note.png" width="230" />
 </p>
+---
 
 ## 📂 Project Structure
 
